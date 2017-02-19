@@ -1,0 +1,99 @@
+/*trip*/
+body>header>div,body>div{
+    overflow: hidden;
+}
+.trip{
+    width: 100%;
+    padding: 5% 0;
+}
+.trip h2,.trip h3{
+    font-family: fangzheng;
+    color: #000;
+    font-weight: bold;
+}
+.trip h3{
+    font-size: 1.3em;
+}
+.trip-top p{
+    width: 70%;
+    height: 50px;
+    margin:2em auto;
+    color:#B3B3B3;
+    font-weight: bold;
+}
+.img-text:hover{
+    text-decoration: none;
+}
+@media  screen and (max-width: 992px){
+    .trip-img{
+        padding-bottom: 10px;
+    }
+}
+@media  screen and (max-width: 766px){
+    .img-text{
+        text-align: center;
+    }
+}
+
+/*Top Destinations*/
+.top-destinations{
+    width: 100%;
+    background: #B1C8EA;
+    color: #fff;
+    padding: 5% 0;
+}
+
+/*.destinations-top*/
+.destinations-top{
+    color: #fff;
+    font-family: fangzheng;
+}
+.destinations-top>h2{
+    font-weight: bold;
+}
+.destinations-top>p{
+    width: 70%;
+    margin: 2em auto;
+}
+.destinations-bottom>ul>li>img{
+    width: 100%;
+}
+@media screen and (max-width: 770px) and (min-width:450px){
+    .destinations-bottom>ul>li>img{
+        width: 300px;
+    }
+    .destinations-bottom>ul>li>p{
+        width: 70%;
+        margin: 1em auto;
+    }
+}
+.destinations-text{
+    margin-top: 1em;
+}
+
+/*News*/
+.news{
+    width: 100%;
+    background: url("../images/8.jpg");
+    background-size:cover;
+    padding-bottom: 5%;
+    color: #fff;
+}
+.news-top>h2{
+    font-family:fangzheng;
+    font-weight: bold;
+}
+.news-top>p{
+    width: 70%;
+    margin: 1em auto;
+}
+.news-bottom h3{
+    font-size:4em;
+}
+@media screen and (max-width: 768px){
+    .news-bottom{
+        text-align: center;
+    }
+}
+
+

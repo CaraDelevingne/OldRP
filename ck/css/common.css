@@ -1,0 +1,217 @@
+*{
+    margin: 0 auto;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.box{
+    width: 100%;
+    min-width: 1263px;
+    background: #f5f5f5;
+}
+/*header*/
+
+/*nav*/
+.breadcrumb{
+    height: 30px;
+    margin-bottom: 0;
+}
+nav>ul>li>a{
+    color: #000;
+}
+nav>ul>li:first-child,nav>ul>li:nth-child(2),nav>ul>li:nth-child(3),nav>ul>li:nth-child(4){
+    float: left;
+    margin-left: 20px;
+}
+nav>ul>li:nth-child(4),nav>ul>li:nth-child(5),nav>ul>li:nth-child(6),nav>ul>li:last-child{
+    float: right;
+    margin-right: 20px;
+}
+nav>ul>li:last-child>a{
+    color: #B22025;
+}
+/*nav*/
+
+/*头部分类*/
+.classify{
+    background: #fff;
+}
+.classify>h1{
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.classify>h1>a{
+    color: #000;
+}
+.classify>h1>a:hover{
+    text-decoration: none;
+}
+.classify>div{
+    height: 43px;
+    border-bottom: 2px solid #E9E8E8;
+}
+.classify>div>ul{
+    height: 42px;
+    position: relative;
+    float: left;
+    margin-bottom: 0;
+}
+.classify>div>ul>li{
+    float: left;
+    margin-left: 80px;
+    padding: 10px;
+}
+.classify>div>ul>li>a{
+    color: #000;
+}
+.default{
+    float: right;
+    background: #fff;
+    margin-right: 60px;
+}
+.default>a>input{
+    outline: none;
+    border: none;
+    width: 180px;
+    background: transparent;
+}
+
+/*二级菜单*/
+.menu{
+    width: 100%;
+    min-width: 1263px;
+    margin-top: -10px;
+    position: absolute;
+    z-index: 999;
+    background: #E0E0E0;
+}
+.menu h4{
+    font-weight: bold;
+}
+.menu>div{
+    float: left;
+}
+.menu>div:first-child{
+    float: right;
+    margin-top: 30px;
+}
+.menu h4{
+    font-size: 20px;
+    margin-left: 30px;
+}
+/*男装*/
+.man{
+    border-right: 2px solid #fff;
+}
+.man ul{
+    float: left;
+}
+.man ul::after{
+    content: "";
+    clear: both;
+}
+.man_right{
+   margin-right:50px;
+}
+.man_left>li>a,.man_right>li>a{
+    color: #000000;
+    padding: 3px 40px;
+    display: inline-block;
+}
+.man_left>li:first-child>a,.man_right>li:first-child>a{
+    color: #000;
+    font-weight: bold;
+}
+/*女装*/
+.woman ul{
+    float: left;
+}
+.woman ul::after{
+    content: "";
+    clear: both;
+}
+.woman_left>li>a,.woman_right>li>a{
+    color: #000000;
+    padding: 3px 40px;
+    display: inline-block;
+}
+.woman_left>li:first-child>a,.woman_right>li:first-child>a{
+    color: #000;
+    font-weight: bold;
+}
+
+
+/*footer*/
+footer{
+    width: 100%;
+    min-width: 1263px;
+    background: #2E2E2E;
+}
+.touch{
+    height: 30px;
+    width: 100%;
+    min-width: 1263px;
+    display: inline-block;
+    background: #4B4B4B;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 50px;
+}
+.touch:hover{
+    color: #fff;
+    text-decoration: none;
+}
+footer>div{
+    width: 100%;
+    max-width: 1183px;
+    height:206px;
+    color: #999999;
+    padding-left: 80px;
+}
+
+footer>div>div{
+    float: left;
+    width: 206px;
+    height: 170px;
+    margin-top: 20px;
+}
+
+footer>div>div>h4{
+    padding:5px 25px;
+    border-bottom: 1px solid #999999;
+}
+footer>div>div::after{
+    content: "";
+    clear: left;
+}
+footer>div>div>a{
+    color: #999999;
+    padding:2px 25px;
+    display: inline-block;
+}
+footer>div>div>a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.img-responsive{
+    margin-top: 20px;
+}
+.text{
+    width: 180px;
+    height: 40px;
+    border-radius: 3px;
+}
+.butn{
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #fff;
+    background: #000;
+    color: #fff;
+}
+footer>p{
+    color: #999999;
+    background: #2E2E2E;
+    margin-bottom: 0;
+}

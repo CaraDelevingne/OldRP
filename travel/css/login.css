@@ -1,0 +1,255 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration:none;
+    list-style-type: none;
+}
+@font-face {
+    font-family: fangzheng;
+    src: url("../fonts/fangzheng.TTF");
+}
+/*header*/
+header{
+    width: 100%;
+}
+/*logo部分*/
+nav>ul>li{
+    display: inline-block;
+    margin-left: 2em;
+}
+.logo>h1{
+    font: 3.5em fangzheng;
+    font-weight: bold;
+    border-right: 1px solid #777777;
+    padding-right: 1em;
+}
+@media screen and (max-width: 300px) {
+    .logo>h1{
+        padding-right: 0;
+    }
+}
+.logo>h1>a{
+    color: #777777;
+}
+.logo>h1>a:hover{
+    color: #777777;
+    text-decoration: none;
+}
+nav>ul>li:last-child{
+    font: 1.5em fangzheng;
+}
+/*header End*/
+
+/*login*/
+section{
+    width: 100%;
+    background: url("../images/login.jpg")30% 0;
+    background-size: cover;
+}
+.login_first{
+    display: block;
+}
+.login{
+    margin-top: 3em;
+    background: #fff;
+    margin-bottom: 3em;
+    display: block;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,.8);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,.8);
+    box-shadow: 0 0 20px rgba(0,0,0,.8);
+}
+.login>ul>li{
+     margin-top: 1em;
+}
+/*Ñ¡Ïî¿¨*/
+.choice>span{
+    background: #B1C8EA;
+    padding: .7em 0;
+    text-align: center;
+    color:#fff;
+    font: 1.5em fangzheng;
+    font-weight: bold;
+    cursor: pointer;
+}
+.choice>span:last-child{
+    opacity: .6;
+}
+/*µÇÂ¼¿ò*/
+.login_box input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #EEEEEE;
+}
+.login_box input::-webkit-input-placeholder{
+    text-align: center;
+}
+.login_box input:-ms-input-placeholder{
+    text-align: center;
+}
+.user>input{
+    background: url("../images/login_icon.png") 0 -10px no-repeat;
+}
+.password{
+    margin-top: 1em;
+}
+.password>input{
+    background: url("../images/login_icon.png")0 -50px no-repeat;
+}
+/*×Ô¶¯µÇÂ¼*/
+.check span{
+    color: #A9A9A9;
+    font-size: .5em;
+    cursor: pointer;
+}
+.check a{
+    color: #747474;
+    font-size: .5em;
+}
+.check a:hover{
+    text-decoration: none;
+}
+/*µÇÂ¼°´Å¥*/
+.login_btn button{
+    width: 100%;
+    height: 40px;
+    background: #B1C8EA;
+    color: #fff;
+    border: none;
+}
+.login_btn>div>div{
+    margin-bottom: 1em;
+}
+.login_btn button:hover{
+    background: #74797E;
+}
+.login_btn>div>a{
+    color: #747474;
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 2em;
+}
+/*ºÏ×÷ÆóÒµµÇÂ¼*/
+.partner-login{
+    padding-bottom: 6em;
+}
+.partner-login p{
+    color: #939393;
+}
+.tencent{
+    width: 33px;
+    height: 32px;
+    background: url("../images/login_theme.png") -160px 0 no-repeat;
+    padding: 0;
+}
+.sina{
+    width: 33px;
+    height: 32px;
+    background: url("../images/login_theme.png")0 0 no-repeat;
+    padding: 0;
+}
+/*µÇÂ¼·½Ê½*/
+.change{
+    position: relative;
+    right:0;
+    bottom: 0;
+    padding: 0;
+}
+.change_btn{
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    background: url("../images/login_theme.png")0 -85px no-repeat ;
+    padding: 0;
+    cursor: pointer;
+}
+/*»áÔ±µÇÂ¼½áÊø*/
+
+/*¶¯Ì¬µÇÂ¼½çÃæ*/
+.login_dt{
+    display: none;
+}
+/*Ñ¡Ïî¿¨*/
+.choice_sec>span{
+    background: #B1C8EA;
+    padding: .7em 0;
+    text-align: center;
+    color:#fff;
+    font: 1.5em fangzheng;
+    font-weight: bold;
+    cursor: pointer;
+}
+.choice_sec>span:first-child{
+    opacity: .6;
+}
+/*¶¯Ì¬ÃÜÂë¿ò*/
+.txt-tel>input{
+    background:url("../images/login_icon.png")0 -50px no-repeat;
+}
+.txt{
+    display: inline-block;
+    border: 1px solid #E0E0E0;
+    background: #F9F9F9;
+    color: #575757;
+    line-height: 40px;
+    font-size: .8em;
+    padding: 0;
+    text-align: center;
+    height: 40px;
+    margin: 0 auto;
+    counter-reset: none;
+}
+.txt:hover{
+    text-decoration: none;
+    color: #575757;
+}
+
+@media  screen and (max-width: 772px) {
+    .txt{
+        margin-top: 1em;
+    }
+}
+/*¶¯Ì¬ÃÜÂëµÇÂ¼½áÊø*/
+/*¶þÎ¬ÂëµÇÂ¼*/
+.qrcode{
+    display: none;
+}
+.top{
+    background:#B1C8EA;
+    padding: .8em 0;
+}
+.top span{
+    color: #fff;
+    font: 2em fangzheng;
+}
+.top a{
+    color: #fff;
+    font-size: .5em;
+    line-height: 3em;
+}
+.content{
+    height: 425px;
+}
+.content>div{
+    padding-top: 8em;
+}
+/*bottom*/
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+}
+.container{
+    position: relative;
+}
+.back-top{
+    position: fixed;
+    bottom: 1em;
+    right: 0;
+    width:50px;
+    height: 50px;
+    background: rgba(177,200,234,.5);
+    border: none;
+    font-size: 2em;
+    color: #fff;
+    outline: none;
+}

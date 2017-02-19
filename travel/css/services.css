@@ -1,0 +1,71 @@
+/*services*/
+.services{
+    width: 100%;
+    color: #6E6E6E;
+}
+.services h2{
+    margin: 1em 0;
+    font: 2.8em fangzheng;
+    font-weight: bold;
+}
+.services-text{
+    font-size: 1.5em;
+}
+.icon{
+    margin:2em 0;
+}
+.services-icon{
+    width: 120px;
+    height: 120px;
+    background: #B1C8EA;
+    border-radius: 50%;
+    line-height: 10em;
+}
+.glyphicon-cog{
+    font-size: 2.5em;
+    color: #fff;
+}
+
+/*Our Main Services*/
+.main{
+    width: 100%;
+    background: #AEC8EB;
+    color: #fff;
+
+}
+.main h2{
+    margin: 1em 0;
+    font: 2.8em fangzheng;
+    font-weight: bold;
+}
+.main ul{
+    margin-bottom: 2em;
+
+}
+.main ul>li{
+    margin: 1em 0;
+    perspective: 1000px;
+}
+.main-img:hover{
+    -webkit-transform: translateZ(50px);
+    -moz-transform: translateZ(50px);
+    -ms-transform: translateZ(50px);
+    -o-transform: translateZ(50px);
+    transform: translateZ(50px);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.main-img{
+    padding: 0;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+}
+@media screen and (max-width: 372px) {
+    .main-text{
+        text-align: center;
+    }
+}

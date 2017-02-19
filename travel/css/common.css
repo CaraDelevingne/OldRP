@@ -1,0 +1,228 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+@font-face {
+    font-family: long;
+    src: url("../fonts/Dorsa-Regular.ttf");
+}
+@font-face {
+    font-family: sort;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: fangzheng;
+    src: url("../fonts/fangzheng.TTF");
+}
+body>header>div,body>div{
+    overflow: hidden;
+}
+/*header*/
+.header-top{
+    width: 100%;
+    background: #fff;
+    padding: .5em 0;
+    height: 57px;
+}
+nav{
+    height: 57px;
+}
+nav>div{
+    float: left;
+}
+.header_left>div{
+    float: left;
+    margin-left: 1.2em;
+}
+.navbar-header>div{
+    padding-top: .6em;
+}
+.header_left a{
+    color: #B0B0B0;
+    font-size: 1em;
+    font-weight: bold;
+}
+.header_right{
+    float: right;
+}
+.header_right li{
+   float: right;
+    margin-right: .5em;
+}
+.header_right a{
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+}
+.twitter {
+    background: url("../images/social.png") no-repeat 0 0;
+}
+.facebook{
+    background: url("../images/social.png") no-repeat -36px 0;
+}
+.chrome{
+    background: url("../images/social.png") no-repeat -72px 0;
+}
+.dribbble{
+    background: url("../images/social.png") no-repeat -108px 0;
+}
+.pinterest{
+    background: url("../images/social.png") no-repeat -145px 0;
+}
+.navbar-collapse{
+    border: none;
+}
+
+/*banner*/
+.banner{
+    background: url("../images/banner1.jpg") no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+}
+.bannertop>p{
+    font-size: 3em;
+    color: #fff;
+    display: none;
+}
+.bannertop>ul{
+    margin: 1.5em 0;
+}
+.bannertop li{
+    display: inline-block;
+    padding: .8em 0;
+}
+.bannertop>ul>li>a{
+    font:1.8em fangzheng;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    padding: .5em .7em;
+    background: transparent;
+}
+.bannertop>ul>li>a:hover{
+    background: #fff;
+    color: #595959;
+    border: 2px solid rgba(225, 225, 225, 0);
+}
+.banner-left{
+    float: left;
+    padding: 13.95em 5em 8.8em;
+    background: rgba(255, 255, 255, .5);
+    text-align: center;
+    color: #6E6E6E;
+}
+.carousel{
+    position: relative;
+}
+
+.carousel-inner>div{
+    font-size: 10px;
+    height: 88px;
+}
+@media screen and (max-width: 992px){
+    .banner-left{
+        float: left;
+        padding: 84px 0;
+        background: rgba(255, 255, 255, .5);
+        text-align: center;
+        color: #6E6E6E;
+    }
+    .carousel h2{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .item>p{
+        height: 60px;
+    }
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: -50px;
+}
+.carousel-indicators li{
+    border: 1px solid #6E6E6E;
+    background: #6E6E6E;
+}
+.banner-right{
+    float: right;
+    padding: 6em 0;
+    background: #fff;
+    text-align: center;
+    color: #6E6E6E;
+}
+.banner-right>h1{
+    font: 15em long;
+}
+.banner-right>p{
+    font:1.15em sort;
+}
+/*footer*/
+footer{
+    width: 100%;
+    padding: .6em 0;
+}
+footer h3{
+    color: #6E6E6E;
+    padding-bottom: 1em;
+    font-family: fangzheng;
+    font-weight: bold;
+}
+footer p{
+    color: #C2C2C2;
+    margin: 0;
+}
+footer>div>ul{
+    border-bottom: 2px solid #939090;
+}
+footer>div>ul>li{
+    padding-bottom: 1em;
+}
+footer>div>ul>li:first-child>a{
+    font:10em long;
+    color: #6E6E6E;
+    text-decoration: none;
+}
+.footer-email{
+    width: 60%;
+    height: 35px;
+    background: #EEEEEE;
+    border: none;
+}
+button{
+    width: 20%;
+    height: 35px;
+    border: none;
+    background: #B1C8EA;
+    color: #fff;
+}
+button:hover{
+    background: #74797E;
+}
+/*bottom*/
+.bottom{
+    width: 100%;
+}
+.container{
+    position: relative;
+}
+.back-top{
+    position: fixed;
+    bottom: 1em;
+    right: 0;
+    width:50px;
+    height: 50px;
+    background: rgba(177,200,234,.5);
+    border: none;
+    font-size: 2em;
+    color: #fff;
+    outline: none;
+}
+
+

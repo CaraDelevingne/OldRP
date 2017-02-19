@@ -1,0 +1,80 @@
+/*about*/
+.about{
+    width: 100%;
+    margin-bottom: 2em;
+}
+.about-text{
+    width: 70%;
+}
+.about h2{
+    font:2.5em fangzheng;
+    font-weight: bold;
+    margin: 1.5em 0;
+}
+.about p{
+    color: #B3B3B3;
+    padding-top: 1em;
+}
+
+/*our people*/
+.our{
+    width: 100%;
+    background: #AEC8EB;
+}
+.our h2{
+    font:2.5em fangzheng;
+    font-weight: bold;
+    margin: 1.5em 0;
+    color: #fff;
+}
+.our ul{
+    padding-bottom:2em;
+}
+.people{
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+.our-text{
+    color: #fff;
+}
+.our-text:hover{
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and (max-width: 992px){
+    .our li{
+        text-align: center;
+    }
+    .our li>img{
+        width: 280px;
+    }
+}
+
+/*Your Guarantees*/
+.guarantees{
+    width: 100%;
+    background: url("../images/8.jpg");
+    background-size:cover;
+    color: #fff;
+}
+.guarantees h2{
+    font:2.5em fangzheng;
+    font-weight: bold;
+    margin: 1.5em 0;
+}
+.guarantees li{
+    margin: 1.5em 0;
+}
+.order{
+    width: 70px;
+    height: 85px;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 3.3em;
+    line-height: 80px;
+    float: left;
+}
+.content>h4{
+    font: 1.5em fangzheng;
+    font-weight: bolder;
+    margin-top: 0;
+}

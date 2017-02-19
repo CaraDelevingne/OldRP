@@ -1,0 +1,98 @@
+
+section{
+    width: 100%;
+    min-width: 1263px;
+}
+section>div{
+    width: 1263px;
+    background: transparent;
+}
+section>div>div:first-child{
+    width: 340px;
+}
+
+/*轮播*/
+section>div>div:nth-child(2){
+    width: 1051px;
+}
+section>div>div:nth-child(2)>div>ul>li{
+    width: 207px;
+    height: 487px;
+    display: inline-block;
+    position: relative;
+}
+#over{
+    overflow: visible;
+}
+/*阴影文本*/
+.text_node{
+    width: 207px;
+    height: 496px;
+    background: #000;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+.text_node>div{
+   margin-top: 180px;
+}
+.text_node>div>p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.text_node>div>div{
+    margin-top: 30px;
+}
+.text_node>div>div>p{
+    color:#fff;
+}
+/*carousel 导航*/
+.arrow>a{
+    width: 100px;
+    height: 496px;
+    display: inline-block;
+}
+.arrowL{
+    float: left;
+    margin-left: -100px;
+    position: absolute;
+    top: 0;
+}
+.arrowR{
+    float: right;
+    margin-right: -100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.arrow>a>div{
+    width: 20px;
+    height: 45px;
+    margin-top: 225px;
+}
+.arrowR>div{
+    background: url("../images/icon-arrow.png") -20px 0;
+}
+.arrowL>div{
+    background: url("../images/icon-arrow.png") 0 0;
+}
+
+/*btn*/
+.button{
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button>input{
+    width: 260px;
+    height: 40px;
+    border: 1px solid #fff;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 50px;
+}

@@ -1,0 +1,72 @@
+
+/*section*/
+section{
+    width: 100%;
+    min-width: 1263px;
+    background: #fff;
+    height: 735px;
+}
+section>ul{
+    width: 900px;
+    height: 1px;
+    background: #fff;
+}
+section h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+section label{
+    font-size: 10px;
+    cursor: pointer;
+}
+section>ul>li{
+    width: 282px;
+    height: 735px;
+    float: left;
+    border-left: 1px solid #F1F1F1;
+    padding:0 20px;
+    background: #fff;
+}
+section>ul>li:first-child{
+    background: #F5F5F5;
+}
+section>ul>li>div{
+    margin-top: 20px;
+}
+[type=text]{
+    width: 240px;
+    height: 30px;
+}
+.but{
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    background: #000;
+    border: 0;
+    color: #fff;
+}
+section>ul>li:nth-child(2)>ul>li{
+    margin-top: 10px;
+}
+.check{
+    font-size: 10px;
+}
+.share{
+    float: left;
+    margin-top: 0;
+}
+.qq{
+    width: 17px;
+    height: 17px;
+    background: url("../images/share_tengxun.png");
+}
+.sina{
+    width: 19px;
+    height: 17px;
+    background: url("../images/share_weibo.png");
+    margin-left: 20px;
+}
+.login>h4{
+    font: 13px "ΊΪΜε";
+    font-weight: bold;
+}

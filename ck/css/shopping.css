@@ -1,0 +1,204 @@
+
+section{
+    width: 100%;
+    min-width: 1263px;
+}
+section>div{
+    width: 1263px;
+}
+section>div>div:first-child{
+    margin: 5px 20px;
+}
+section>div>div:first-child>a{
+    color: #000;
+}
+
+/*放大镜*/
+.glass{
+    margin:0 10px;
+    float: left;
+    position: relative;
+}
+.small{
+    width: 430px;
+    height: 570px;
+    float: left;
+    margin:10px;
+    position: relative;
+    z-index: 1;
+}
+.small>img{
+    width: 430px;
+    height: 570px;
+    position: absolute;
+}
+.look{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/cloud-zoom-lens.png");
+    z-index: 2;
+    display: none;
+}
+.copy{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 430px;
+    height: 570px;
+    /*置顶*/
+    z-index: 999;
+    cursor: crosshair;
+}
+.big{
+    width: 430px;
+    height: 570px;
+    margin: 10px;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+
+}
+.big_s{
+    width: 860px;
+    height: 1140px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.icon{
+    margin-left: 10px;
+}
+.icon>li{
+    width: 57px;
+    height: 75px;
+    float: left;
+    margin-left: 5px;
+}
+.icon>li>img{
+    width: 55px;
+    height: 73px;
+}
+.icon>li:hover{
+    border: 1px solid black;
+}
+
+/*中间文本区域*/
+.text_node{
+    margin-left: 10px;
+    width: 467px;
+    float: left;
+}
+.page-header{
+    margin-top: 0;
+}
+.page-header>h2{
+    margin-top: 0;
+}
+.text_node>div:nth-child(2)>p:first-child{
+    font-size: 10px;
+}
+.color_t{
+    color: #000;
+}
+.color{
+    width: 41px;
+    height: 41px;
+    border: 1px solid #DDDDDD;
+    background: #fff;
+    margin-left: 1px;
+}
+.color>div{
+    width: 37px;
+    height: 37px;
+    background: #E14B3D;
+    margin-top:1px;
+}
+select{
+    width: 50px;
+    height: 20px;
+    margin: 20px;
+}
+.share>input{
+    margin: 20px;
+    width: 120px;
+    height: 50px;
+    background: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+}
+
+.share>a{
+    color: #000;
+
+}
+.share>div{
+    margin-top: 10px;
+}
+.share>div>span{
+    float: left;
+}
+.share_icon{
+    width: 80px;
+    height: 20px;
+    float: left;
+}
+.share_icon>li>a{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+    display: inline-block;
+}
+.share_icon>li:first-child>a{
+    background: url("../images/share-icon.png")0 0;
+}
+.share_icon>li:nth-child(2)>a{
+    background: url("../images/share-icon.png")0 -30px ;
+}
+.share_icon>li:last-child>a{
+    background: url("../images/share-icon.png")0 -65px no-repeat;
+}
+
+/*右边推荐*/
+.recommend{
+    float: right;
+    width: 95px;
+    margin-right: 80px;
+}
+.recommend>h4{
+    font: 13px "微软雅黑";
+}
+.recommend>div>p{
+    font-size: 11px;
+}
+
+/*商品详情*/
+.product{
+    width: 765px;
+}
+.product>h3{
+    font-family: "黑体";
+    padding-bottom: 10px;
+    border-bottom: 2px solid #CACACA;
+}
+.product>div{
+    width: 765px;
+}
+.product>div>h4{
+    font-family: "黑体";
+}
+.product>div>ul>li{
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+.product>div>ul>li>span{
+    color: #000;
+    margin-left: 10px;
+}
+.images{
+    width: 765px;
+}

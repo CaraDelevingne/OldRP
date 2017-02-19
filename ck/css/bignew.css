@@ -1,0 +1,158 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.wapper{
+    width: 100%;
+    min-width: 1263px;
+}
+/*nav*/
+header{
+    width: 100%;
+    min-width: 1263px;
+}
+nav>ul{
+    height: 85px;
+    border-bottom: 2px solid #E9E8E8;
+    margin-bottom: 0;
+}
+nav h1{
+    font-size:37px;
+    margin-top: 30px;
+}
+nav>ul>li{
+    float: right;
+    height: 85px;
+    line-height: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav>ul>li>a{
+    color: #000;
+    font:18px "΢���ź�";
+}
+nav>ul>li>a:hover{
+    text-decoration: none;
+    color: #000;
+}
+nav>ul>li:first-child{
+    float: left;
+}
+/*section*/
+section{
+    width: 100%;
+    min-width: 1263px;
+}
+.jeans{
+    width: 100%;
+    /*min-width: 1263px;*/
+    height: 547px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0;
+}
+.jeans>li{
+    width: 825px;
+    height: 580px;
+    border: 1px solid #fff;
+    position: absolute;
+}
+.jeans>li img{
+    width: 825px;
+    height: 580px;
+}
+.node{
+    display: none;
+    position: absolute;
+    bottom: 90px;
+    background: rgba(18,22,31,.7);
+    width: 435px;
+    height: 212px;
+    text-align: center;
+    line-height: 27px;
+}
+.node>h2,.node>h3,.node>p{
+    color: #fff;
+}
+.year{
+    display: none;
+    color: #fff;
+    font:40px "微软雅黑";
+    position: absolute;
+    top: 80px;
+    transform: rotate(90deg);
+}
+/*footer*/
+footer{
+    width: 100%;
+    min-width: 1263px;
+    background: #2E2E2E;
+}
+.touch{
+    height: 30px;
+    width: 100%;
+    min-width: 1263px;
+    display: inline-block;
+    background: #4B4B4B;
+    line-height: 30px;
+    color: #fff;
+    padding-left:50px;
+}
+.touch:hover{
+    color: #fff;
+    text-decoration: none;
+}
+footer>div{
+    width: 1135px;
+    height:206px;
+    color: #999999;
+    padding-left: 80px;
+}
+
+footer>div>div{
+    float: left;
+    width: 206px;
+    height: 170px;
+    margin-top: 20px;
+}
+
+footer>div>div>h4{
+    padding:5px 25px;
+    border-bottom: 1px solid #999999;
+}
+footer>div>div::after{
+    content: "";
+    clear: left;
+}
+footer>div>div>a{
+    color: #999999;
+    padding:2px 25px;
+    display: inline-block;
+}
+footer>div>div>a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.img-responsive{
+    margin-top: 20px;
+}
+.text{
+    width: 180px;
+    height: 40px;
+    border-radius: 3px;
+}
+.butn{
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #fff;
+    background: #000;
+    color: #fff;
+}
+footer>p{
+    color: #999999;
+    background: #2E2E2E;
+    margin-bottom: 0;
+}

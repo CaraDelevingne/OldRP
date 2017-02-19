@@ -1,0 +1,77 @@
+
+/*section*/
+.sale{
+    width: 100%;
+    min-width: 1263px;
+}
+.sale>a{
+    background: #000;
+    height: 30px;
+    padding-left: 95px;
+    color: #fff;
+    display: block;
+    margin-top: 5px;
+    line-height: 30px;
+    font-size: 10px;
+}
+.sale>a:hover{
+    text-decoration: none;
+}
+/*Carousel*/
+#mycarousel>a>div{
+    width: 30px;
+    height: 43px;
+    margin-top: 80%;
+}
+/*Carousel 导航*/
+.arrowR>div{
+    background: url("../images/arrows.png") -25px 0;
+}
+.arrowL>div{
+    background: url("../images/arrows.png") 0 0;
+}
+
+/*图片展示部分*/
+.content_center{
+    width: 100%;
+    max-width:1263px;
+    margin-bottom: 20px;
+}
+/*图片top*/
+.pic_top>div{
+    float: left;
+    margin-top: 10px;
+}
+.pic_top>div:first-child{
+    width: 475px;
+    margin-left: 10px;
+}
+.pic_top>div:first-child>a>img{
+    width: 475px;
+    height: 300px;
+}
+.img-c1{
+    margin-bottom: 10px;
+}
+.pic_top>div:last-child{
+    width: 750px;
+    height: 610px;
+    margin-left: 20px;
+}
+.pic_top>div:last-child>a>img{
+    width: 750px;
+    height: 610px;
+}
+/*图片bottom*/
+.pic_bottom{
+    max-width: 1263px;
+}
+.pic_bottom img{
+    float: left;
+    width: 616px;
+    height: 388px;
+    margin-left: 10px;
+}
+.pic_bottom>a:last-child>img:last-child{
+    margin-left: 20px;
+}

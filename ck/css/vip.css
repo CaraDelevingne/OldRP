@@ -1,0 +1,27 @@
+
+/*content内容*/
+section{
+    width: 100%;
+}
+section>div{
+    width: 1200px;
+    text-align: center;
+}
+section>div:last-child>div{
+    width: 590px;
+    height: 200px;
+    border: 1px solid #E4E5E7;
+    float: left;
+    padding: 10px;
+    margin: 20px 0;
+}
+section>div:last-child>div:last-child{
+    margin-left: 20px;
+}
+section h3{
+    border-bottom: 2px solid #E4E5E7;
+    line-height: 40px;
+}
+section>div:last-child>div>p{
+    margin-top: 40px;
+}

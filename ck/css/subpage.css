@@ -1,0 +1,158 @@
+
+section{
+    width: 100%;
+    min-width: 1263px;
+}
+section>div{
+    width: 1263px;
+}
+section>div>div{
+    float: left;
+}
+/*left*/
+.sort{
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sort h3{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 0;
+    cursor: pointer;
+}
+.sort>ul>li:last-child>ul>li>a{
+    color: #000;
+}
+.sort>ul>li:last-child>ul>li>a:hover{
+    text-decoration: none;
+}
+.second{
+    display: none;
+}
+.second>li{
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.third{
+    display: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.third>li{
+    padding-top: 3px;
+}
+.third a{
+    color: #000;
+    font-weight: normal;
+}
+
+/*right*/
+.content{
+    width: 1000px;
+    margin: 20px 0 20px 60px;
+}
+table{
+    border-spacing:10px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-collapse:separate;
+}
+table th{
+    font-weight: normal;
+}
+table td{
+    padding: 5px;
+    background: #F2F2F2;
+}
+table td>a{
+    width: 68px;
+    display: inline-block;
+    color: #000;
+    font-size: 10px;
+    text-align: center;
+}
+table td>a:hover{
+    text-decoration: none;
+    color: #000;
+}
+/*商品展示区*/
+.sec_btm{
+    float: left;
+    width: 1000px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sec_btm>div{
+    height: 50px;
+    background: #D2D2D2;
+    line-height: 50px;
+}
+.sec_btm>div>p{
+    float: left;
+    margin:0 20px;
+}
+.sec_btm>div>select{
+    border: none;
+    padding: 3px;
+}
+.sec_btm>ul{
+    margin-top: 20px;
+}
+.sec_btm>ul>li>h4,.sec_btm>ul>li>p,.sec_btm>ul>li>span{
+    margin-left: 10px;
+}
+.sec_btm>ul>li{
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+/*图片*/
+.sec_btm>ul>li>div:first-child{
+    width: 213px;
+    height: 282px;
+    position: relative;
+}
+.sec_btm>ul>li>div:first-child>a>img{
+    position: absolute;
+}
+/*按钮*/
+.sec_btm>ul>li>div:nth-child(6){
+    float: right;
+    margin-right: 10px;
+}
+.sec_btm>ul>li>div:nth-child(6)>div{
+    width: 16px;
+    height: 16px;
+    border: 2px solid #666665;
+    cursor: pointer;
+}
+.rec{
+    background: #fff;
+    display: inline-block;
+}
+.black{
+    background: #000;
+}
+.sec_btm>ul>li:nth-child(2)>div:nth-child(6)>div{
+    background: #fff;
+}
+.sec_btm>ul>li:nth-child(3)>div:nth-child(6)>div{
+    background: #E24A3D;
+}
+.sec_btm>ul>li:last-child>div:nth-child(6)>div{
+    background: #F84348;
+}
+.B_box{
+    width: 214px;
+    height: 282px;
+    background: #000;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}

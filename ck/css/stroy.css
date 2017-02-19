@@ -1,0 +1,84 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+.box{
+    width: 100%;
+    min-width: 1263px;
+    background: url("../images/f16_jeans_globalbrandsitehero_1340x700.jpg") center top no-repeat #000;
+}
+
+/*section*/
+/*title*/
+.node{
+    color: #fff;
+    margin-left: 50px;
+}
+.node>h2{
+    font-size: 40px;
+}
+.node>p{
+    font-size: 25px;
+}
+/*content*/
+.show>ul{
+    width: 1110px;
+    height: 800px;
+}
+.show>ul>li{
+    width: 315px;
+    height: 310px;
+    float: left;
+    margin: 20px 27px;
+    position: relative;
+}
+/*left*/
+.show>ul>li>a>div:first-child{
+    width: 157px;
+    height: 309px;
+    float: left;
+}
+/*right*/
+.show>ul>li>a>div:nth-child(2){
+    width: 158px;
+    height: 309px;
+    float: right;
+    background: #fff;
+}
+.show>ul>li>a>div:nth-child(2)>h4{
+    display: inline-block;
+    color: #888888;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+/*shadow*/
+.shadow{
+    position: absolute;
+    left: 0;
+    width: 315px;
+    height: 310px;
+    display: inline-block;
+    background: rgba(000,000,000,.3);
+    visibility: hidden;
+}
+.img{
+    background: url("../images/s16_coll_AcademyAwds_157x310.jpg"); 
+}
+.imgtwo{
+    background: url("../images/s16_coll_DazedArticle_157x310.jpg");
+}
+.imgthree{
+    background: url("../images/s16_coll_GlamArticle_157x310.jpg");
+}
+.imgfour{
+    background: url("../images/s16_coll_Porter_157x310.jpg");
+}
+.imgfive{
+    background: url("../images/s16_coll_VogueJAlba_157x310.jpg");
+}
+.imgsix{
+    background: url("../images/s16_coll_WmnsRunwayBTS_157x310.jpg");
+}
