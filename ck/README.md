@@ -4,4 +4,4 @@ Boostrap/JQuery
 #### 描述
 布局方面采用 最大宽度自适应配合最小宽度，其他动画wow插件和Boostrap
 
-### demo地址: https://caradelevingne.github.io/OldRP/ck/index.html
+### [demo](https://caraws.github.io/OldRP/ck/index.html)
